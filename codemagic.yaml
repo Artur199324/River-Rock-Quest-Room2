@@ -16,7 +16,7 @@ workflows:
         APP_STORE_APPLE_ID: 6739887743
       xcode: latest
       cocoapods: default
-     scripts:
+    scripts:
       - name: List files to verify path
         script: ls -R /Users/builder/clone/
       - name: Install CocoaPods dependencies
